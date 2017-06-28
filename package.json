@@ -1,0 +1,21 @@
+{
+  "name": "ontodia-lod-proxy",
+  "description": "Proxy lod server for Ontodia Library",
+  "keywords": [
+    "proxy"
+  ],
+  "author": {
+    "name": "ontodia.org",
+    "url": "ontodia.org"
+  },
+  "license": "LGPL-2.1",
+  "scripts": {
+    "start": "node proxyApp.js"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
